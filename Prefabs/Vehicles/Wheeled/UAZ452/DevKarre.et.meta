@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9DB472AC01EB6241}Prefabs/Vehicles/Wheeled/UAZ452/DevKarre.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

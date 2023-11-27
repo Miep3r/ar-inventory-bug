@@ -1,0 +1,112 @@
+MI3_GameMode {
+ ID "0000000000000001"
+ components {
+  SCR_CallsignManagerComponent "{5E90EED0302520A5}" {
+  }
+  SCR_DataCollectorComponent "{5E90EED037DD0F4E}" {
+  }
+  SCR_DestructionManagerComponent "{5E90EED04DE000DB}" {
+  }
+  SCR_EntityCatalogManagerComponent "{5E90EED042392B1F}" {
+  }
+  SCR_GameModeHealthSettings "{5E90EED0470C916A}" {
+  }
+  SCR_GameOverScreenManagerComponent "{5E90EED05D45FC75}" {
+  }
+  SCR_GroupsManagerComponent "{5E90EED054C38042}" {
+  }
+  SCR_HintManagerComponent "{5E90EED06BDE2EC4}" {
+  }
+  SCR_MapConfigComponent "{5E90EED06DF3ED40}" {
+  }
+  SCR_MapMarkerManagerComponent "{5E90EED070A20733}" {
+  }
+  SCR_NametagConfigComponent "{5E90EED0745BB1F1}" {
+  }
+  SCR_NightModeGameModeComponent "{5E90EED08DBA2060}" {
+  }
+  SCR_NotificationSenderComponent "{5E90EED0823290A7}" {
+  }
+  SCR_PlayersRestrictionZoneManagerComponent "{5E90EED0982492B2}" {
+  }
+  SCR_PossessingManagerComponent "{5E90EED09D53A733}" {
+  }
+  SCR_RadialMenuItemsComponent "{5E90EED09390A5D1}" {
+   m_MenuController SCR_RadialMenuController "{5E90EED173F68E70}" {
+    m_RMControls SCR_RadialMenuControllerInputs "{5E90EED1885418F0}" {
+     m_sControllerContext "WeaponSelectionContext"
+     m_sOpenAction "Inventory_WeaponSwitchingRadial"
+     m_bCloseOnPerform 1
+    }
+   }
+  }
+  SCR_ReconnectComponent "{5E90EED097B2DEC9}" {
+  }
+  SCR_RespawnSystemComponent "{5E90EED0A345140D}" {
+   components {
+    SCR_FreeSpawnHandlerComponent "{5E90EED0BACE3F02}" {
+     m_bDestroyPreviousControlledEntity 1
+     m_bDeletePreviousControlledEntity 1
+    }
+    SCR_PossessSpawnHandlerComponent "{5E90EED0B31AAB50}" {
+    }
+    SCR_SpawnPointSpawnHandlerComponent "{5E90EED0CA609881}" {
+    }
+   }
+   m_SpawnLogic MI3_CustomRespawnLogic "{5ED0AB88DA0E8434}" {
+    m_sFaction "PLR"
+   }
+  }
+  RplComponent "{5ED0AB8A78E21778}" {
+  }
+ }
+ PlayerControllerPrefab "{48AB60A6C90BBE57}Prefabs/Characters/Core/CustomPlayerControllerMP.et"
+ {
+  SCR_FactionManager "5ED0AB8BB77826C7" : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+   ID "5ED0AB8ADD2A7367"
+   coords 0 0 0
+   Factions {
+    SCR_Faction "{5ED0AB8AD39E2A71}" {
+     FactionKey "PLR"
+     UIInfo SCR_FactionUIInfo "{5ED0AB88A48D190C}" {
+      Name "Player"
+      Description "Player faction"
+     }
+     m_aEntityCatalogs {
+      SCR_EntityCatalog "{5EEF5DF94C94096C}" {
+       m_eEntityCatalogType ITEM
+       m_aEntityEntryList {
+        SCR_EntityCatalogEntry "{5EEF5DF944908D28}" {
+         m_sEntityPrefab "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  MI3_LoadoutManager : "{2831F6B120C2F698}Prefabs/MP/Managers/Loadouts/CustomLoadoutManager.et" {
+   ID "5ED0AB8A687D79AF"
+   coords 0 0 0
+   m_aPlayerLoadouts {
+    MI3_PlayerLoadout "{5ED0AB8A6B237F1E}" {
+     m_sLoadoutName "Charakter 1"
+     m_sLoadoutResource "{F06173BE95E63937}Prefabs/Characters/C1.et"
+     m_sLoadoutClassname "C1"
+    }
+   }
+  }
+  ItemPreviewManagerEntity "5EE308295B605F9A" : "{9F18C476AB860F3B}Prefabs/World/Game/ItemPreviewManager.et" {
+   ID "5EE14AC895A6ACEC"
+   coords 0 0 0
+  }
+  SCR_PlayerSpawnPoint : "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et" {
+   ID "5ED0AB8BAD7F6F47"
+   coords 0 0 0
+   m_sFaction "PLR"
+   m_Info SCR_UIInfo "{5ED0AB88795A98D6}" {
+    Name "Player"
+   }
+  }
+ }
+}

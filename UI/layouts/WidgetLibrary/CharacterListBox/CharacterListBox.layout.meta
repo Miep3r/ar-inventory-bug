@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{49A86D3FB524D344}UI/layouts/WidgetLibrary/CharacterListBox/CharacterListbox.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

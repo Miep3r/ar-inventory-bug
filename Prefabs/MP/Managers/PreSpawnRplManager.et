@@ -1,0 +1,8 @@
+MI3_PreSpawnRplEntity {
+ ID "5ED0CDE6AAD1A21A"
+ components {
+  RplComponent "{5ED0CDE68237EDA0}" {
+  }
+ }
+ coords 105.778 1 131.441
+}

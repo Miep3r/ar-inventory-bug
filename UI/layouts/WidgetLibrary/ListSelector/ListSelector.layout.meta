@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CD9238054CB1B065}UI/layouts/WidgetLibrary/ListSelector/ListSelector.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

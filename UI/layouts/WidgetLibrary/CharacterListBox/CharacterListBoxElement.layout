@@ -1,0 +1,96 @@
+ButtonWidgetClass {
+ Name "CharacterListBoxElement"
+ components {
+  MI3_CharacterListBoxElementComponent "{5ECAD99D7D191CA7}" {
+  }
+ }
+ style blank
+ {
+  SizeLayoutWidgetClass "{5ECAD98BCA58BDD7}" {
+   Name "SizeLayout0"
+   Slot ButtonWidgetSlot "{5ECAD98BCA58BDCD}" {
+    HorizontalAlign 3
+    Padding 4 4 4 4
+   }
+   {
+    OverlayWidgetClass "{5ECAD98BDD6B654D}" {
+     Name "Overlay0"
+     Slot AlignableSlot "{5ECAD98BDD6B657B}" {
+      HorizontalAlign 3
+      Padding 0 0 0 0
+     }
+     {
+      PanelWidgetClass "{5ECAD993109F4CFC}" {
+       Name "Border"
+       Slot OverlayWidgetSlot "{5ECAD993109F4CE8}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+        Padding -4 -4 -4 -4
+       }
+       Color 0.761 0.386 0.08 1
+       style outline_4px
+      }
+      PanelWidgetClass "{5ECAD99776294455}" {
+       Name "Background"
+       Slot OverlayWidgetSlot "{5ECAD99776294448}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+        Padding 0 0 0 0
+       }
+       Color 0 0 0 0.424
+       style full
+      }
+      HorizontalLayoutWidgetClass "{5ECAD9967D193F55}" {
+       Name "HorizontalLayout0"
+       Slot OverlayWidgetSlot "{5ECAD9967D193F4F}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       {
+        HorizontalLayoutWidgetClass "{5ECAD98A0BC1867E}" {
+         Name "HorizontalLayout1"
+         Slot LayoutSlot "{5ECAD99D6F3615F0}" {
+          Padding 8 8 8 8
+          SizeMode Fill
+          FillWeight 0.9
+         }
+         {
+          ImageWidgetClass "{5ECAD98A1B6DE677}" {
+           Name "Icon"
+           Slot LayoutSlot "{5ECAD98A1B6DE66E}" {
+            Padding 0 0 10 0
+           }
+           Texture "{417A0C3A7DC03763}UI/Textures/Editor/ContextMenu/ContextAction_Attributes.edds"
+           Size 32 32
+          }
+          RichTextWidgetClass "{5ECAD98A137EBE25}" {
+           Name "CharacterName"
+           Slot LayoutSlot "{5ECAD98A137EBEDF}" {
+            VerticalAlign 1
+            SizeMode Fill
+           }
+          }
+         }
+        }
+        ButtonWidgetClass "{5EE14C30437258CB}" : "{0EC7676429DDCBC6}UI/layouts/WidgetLibrary/Buttons/WLib_InputNavigationButton.layout" {
+         Name "PlayButton"
+         Slot LayoutSlot "{5EE14C30437258E7}" {
+          HorizontalAlign 1
+          FillWeight 0.1
+         }
+         "Is Visible" 0
+         components {
+          SCR_InputButtonComponent "{5D346C3DD81D95CD}" {
+           m_sActionName "MenuSelect"
+           m_sLabel "Spielen"
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

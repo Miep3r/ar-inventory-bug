@@ -1,0 +1,38 @@
+OverlayWidgetClass {
+ Name "CharacterListBox"
+ components {
+  MI3_CharacterListBoxComponent "{5ECAD99FD6DC50BE}" {
+  }
+ }
+ {
+  OverlayWidgetClass "{5ECAD981CDC4F4DD}" {
+   Name "Overlay0"
+   Slot OverlayWidgetSlot "{5ECAD981CDC4F4F1}" {
+    HorizontalAlign 3
+    VerticalAlign 3
+    Padding 0 0 0 0
+   }
+   {
+    PanelWidgetClass "{5ECAD98177774C17}" {
+     Name "Border"
+     Slot OverlayWidgetSlot "{5ECAD980B97DF82F}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+      Padding -4 -4 -4 -4
+     }
+     "Is Visible" 0
+     Color 0.761 0.392 0.078 1
+     style outline_4px
+    }
+    VerticalLayoutWidgetClass "{5ECAD98144EB3095}" {
+     Name "List"
+     Slot OverlayWidgetSlot "{5ECAD980B97DF8FC}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+      Padding 10 10 10 10
+     }
+    }
+   }
+  }
+ }
+}

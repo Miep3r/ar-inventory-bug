@@ -1,0 +1,9 @@
+MI3_LoadoutManager {
+ ID "5ECF66ABAD39B395"
+ components {
+  RplComponent "{5ECF66ABAD39B39F}" {
+   Streamable Disabled
+  }
+ }
+ Flags 0
+}

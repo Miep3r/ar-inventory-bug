@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8BF54FF570DB7F34}UI/layouts/WidgetLibrary"
+ Configurations {
+  FolderResourceClass PC {
+  }
+  FolderResourceClass XBOX_ONE : PC {
+  }
+  FolderResourceClass XBOX_SERIES : PC {
+  }
+  FolderResourceClass PS4 : PC {
+  }
+  FolderResourceClass HEADLESS : PC {
+  }
+ }
+}

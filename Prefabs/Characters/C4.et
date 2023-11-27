@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{27E8111894943E3C}Prefabs/Characters/BaseLoadout.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{32583C88222142FD}Prefabs/Characters/Heads/Head_White_04.et"
+     Body "{0023F898C0FF18AA}Prefabs/Characters/Basebody/CharacterBasebody.et"
+    }
+   }
+  }
+ }
+}

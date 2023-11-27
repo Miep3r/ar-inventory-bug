@@ -1,0 +1,55 @@
+MI3_PlayerController : "{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et" {
+ ID "1A9BA6BEFA06E3B1"
+ components {
+  MI3_CharacterPersistenceComponent "{5EE0A5C0FCD15C20}" {
+  }
+  MI3_MoneyManagerComponent "{5EF56872FF1044CF}" {
+  }
+  MI3_PlayerPersistenceComponent "{5EE0A5C0F926A81F}" {
+  }
+  RadioHandlerComponent "{5ED0CDE9EA4A4E30}" {
+  }
+  SCR_ChatComponent "{5ED0CDE9EA4A4E39}" {
+  }
+  SCR_DataCollectorCommunicationComponent "{5ED0CDE9EA4A4E27}" {
+  }
+  SCR_HUDManagerComponent "{2FDC275D9EBCDB8B}" {
+   InfoDisplays {
+    SCR_XPInfoDisplay "{5CAAA2EB38829858}" {
+     m_bShowWhenCreated 0
+    }
+   }
+  }
+  SCR_KickHintComponent "{5ED0CDE9EA4A4E2D}" {
+  }
+  SCR_MapMarkerSyncComponent "{5ED0CDE9EA4A4E2B}" {
+  }
+  SCR_PlayerDeployMenuHandlerComponent "{5ED0CDE9EA4A4E28}" {
+  }
+  SCR_PlayerFactionAffiliationComponent "{5ED0CDE9EA4A4E29}" {
+  }
+  SCR_PlayerLoadoutComponent "{5ED0CDE9EA4A4ED6}" {
+  }
+  SCR_ReconnectSynchronizationComponent "{5ED0CDE9EA4A4ED7}" {
+  }
+  SCR_RespawnComponent "{5ED0CDE9EA4A4ED5}" {
+   components {
+    SCR_FreeSpawnRequestComponent "{5ED0CDE9EA4A6D60}" {
+    }
+    SCR_PossessSpawnRequestComponent "{5ED0CDE9EA4A6D66}" {
+    }
+    SCR_SpawnPointRespawnRequestComponent "{5ED0CDE9EA4588FD}" {
+    }
+   }
+  }
+  SCR_SpawnLockComponent "{5ED0CDE9EA4588FE}" {
+  }
+  SCR_TaskNetworkComponent "{5ED0CDE9EA4588FF}" {
+  }
+  RplComponent "{5ED0CDE9EA4588F2}" {
+   "Self Insert" 0
+   Streamable Disabled
+  }
+ }
+ coords 0 0 0
+}

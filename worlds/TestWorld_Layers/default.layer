@@ -1,0 +1,51 @@
+MI3_GameMode GameMode1 : "{E128E2B533CC2A2A}Prefabs/GameMode.et" {
+ coords 108.107 1 129.112
+}
+GenericEntity : "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et" {
+ coords 111.965 1 127.538
+}
+GameEntity : "{06BC3F18B47799AE}Prefabs/Characters/Uniforms/Pants_M70.et" {
+ coords 109.266 1 129.761
+}
+GenericEntity : "{0A84AA5A3884176F}Prefabs/Weapons/Magazines/Magazine_545x39_AK_30rnd_Last_5Tracer.et" {
+ coords 108.874 1 130.124
+}
+GenericEntity : "{5A987A8A13763769}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_M203.et" {
+ coords 110.615 1 127.105
+}
+GenericEntity : "{79A4FFA5202CFA20}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et" {
+ coords 110.535 1.011 128.902
+ angleZ -90
+}
+GenericEntity : "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et" {
+ coords 111.905 1 128.98
+}
+$grp GenericEntity : "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et" {
+ {
+  coords 111.229 1 130.082
+ }
+ {
+  coords 111.126 1 130.082
+ }
+}
+GenericEntity : "{BD496EE1B40DC510}Prefabs/Weapons/Attachments/Optics/Optic_4x20/Optic_4x20.et" {
+ coords 111.135 1 128.918
+}
+$grp GenericEntity : "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et" {
+ {
+  coords 110.897 1.019 128.701
+  angleZ -90
+ }
+ {
+  coords 110.897 1.019 128.805
+  angleZ -90
+ }
+ {
+  coords 110.897 1.019 128.908
+  angleZ -90
+ }
+ {
+  coords 110.897 1.019 129.019
+  angleZ -90
+ }
+}

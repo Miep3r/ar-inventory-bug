@@ -1,0 +1,160 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ Slot AlignableSlot "{5EC90BF763331752}" {
+  HorizontalAlign 3
+  VerticalAlign 3
+  Padding 4 4 4 4
+ }
+ {
+  FrameWidgetClass "{5ECAD98E507581F3}" {
+   Name "Frame0"
+   Slot FrameWidgetSlot "{5ECAD98E507581EC}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX -1820
+    OffsetRight 0
+    SizeY -1050
+    OffsetBottom 0
+   }
+   {
+    ImageWidgetClass "{5ECAD98FA398811D}" {
+     Name "Background"
+     Slot FrameWidgetSlot "{5ECAD98E53E28681}" {
+      Anchor 0 0 1 1
+      PositionX 0
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX -1820
+      OffsetRight 0
+      SizeY -1050
+      OffsetBottom 0
+     }
+     Color 0.056 0.056 0.056 1
+     Size 2560 1518
+    }
+    OverlayWidgetClass "{5EC90BFCDB8BC096}" {
+     Name "MenuBase"
+     Slot FrameWidgetSlot "{5ECAD98E53E28551}" {
+      Anchor 0.35 0.1 0.65 0.9
+      PositionX 0
+      OffsetLeft 0
+      PositionY 216
+      OffsetTop 0
+      SizeX 0
+      OffsetRight 0
+      SizeY -432
+      OffsetBottom 0
+     }
+     {
+      SizeLayoutWidgetClass "{5EC90BFCEA7295D7}" {
+       Name "SizeBase"
+       Slot OverlayWidgetSlot "{5EC90BFCEA7295F5}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       {
+        VerticalLayoutWidgetClass "{5EC90BFD1E50379C}" {
+         Name "VerticalLayoutBase"
+         Slot AlignableSlot "{5EC90BFD1E5037B2}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         {
+          VerticalLayoutWidgetClass "{5EC90BFD50C7E983}" {
+           Name "Root"
+           Slot LayoutSlot "{5EC90BFD50C7E9A0}" {
+            SizeMode Fill
+            FillWeight 0.95
+           }
+           {
+            TextWidgetClass "{5EC90BFDABD12B8C}" {
+             Name "Text0"
+             Slot LayoutSlot "{5EC90BFDABD12BA1}" {
+              HorizontalAlign 1
+              VerticalAlign 1
+              Padding 8 8 8 8
+              SizeMode Fill
+              FillWeight 0.1
+             }
+             Text "Charakter-Auswahl"
+            }
+            OverlayWidgetClass "{5ECAD982FDFC3C5C}" : "{49A86D3FB524D344}UI/layouts/WidgetLibrary/CharacterListBox/CharacterListBox.layout" {
+             Name "CharacterSelection"
+             Slot LayoutSlot "{5ECAD982FDFC3C48}" {
+              SizeMode Fill
+              FillWeight 0.9
+             }
+            }
+            OverlayWidgetClass "{5EC90BFDB7837901}" {
+             Name "Content"
+             Slot LayoutSlot "{5EC90BFDB783792B}" {
+              SizeMode Fill
+              FillWeight 0.95
+             }
+             "Is Enabled" 0
+             "Is Visible" 0
+             {
+              TextListboxWidgetClass "{5EC90BFDFF3F022C}" {
+               Name "TextListbox0"
+               Slot OverlayWidgetSlot "{5EC90BFDFF3F02CB}" {
+                HorizontalAlign 3
+                VerticalAlign 3
+               }
+              }
+             }
+            }
+           }
+          }
+          HorizontalLayoutWidgetClass "{5EC90BFE26CDEFBE}" {
+           Name "Footer"
+           Slot LayoutSlot "{5EC90BFE26CDEE52}" {
+            HorizontalAlign 1
+            Padding 0 4 0 0
+            SizeMode Fill
+            FillWeight 0.1
+           }
+           {
+            ButtonWidgetClass "{5EE116DC6226BBA5}" : "{08CF3B69CB1ACBC4}UI/layouts/WidgetLibrary/Buttons/WLib_NavigationButton.layout" {
+             Name "BackButton"
+             Slot LayoutSlot "{5EE116DC6226BA45}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+              Padding 0 0 20 0
+             }
+             components {
+              SCR_InputButtonComponent "{5D346C3DD81D95CD}" {
+               m_sActionName "MenuBackKeybind"
+               m_sLabel "Zurück"
+              }
+             }
+            }
+            ButtonWidgetClass "{5EE116DC8294578C}" : "{08CF3B69CB1ACBC4}UI/layouts/WidgetLibrary/Buttons/WLib_NavigationButton.layout" {
+             Name "CreateNewButton"
+             Slot LayoutSlot "{5EE116DC6226BA45}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+              Padding 0 0 20 0
+             }
+             components {
+              SCR_InputButtonComponent "{5D346C3DD81D95CD}" {
+               m_sActionName "MenuNavRight"
+               m_sLabel "Neu erstellen"
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
